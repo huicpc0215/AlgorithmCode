@@ -31,11 +31,11 @@ class Solution{
         int Apart=min(k/2,m),Bpart=k-Apart;
         if( A[Apart-1]<B[Bpart-1] ) return findKthNumber( A+Apart,m-Apart,B,n,k-Apart);
         else if( A[Apart-1]>B[Bpart-1] ) return findKthNumber( A,m,B+Bpart,n-Bpart,k-Bpart);
-        else return A[Apart];
+        else return A[Apart-1];
     }
     double findMedianSortedArrays(int A[],int m, int B[],int n){
-        if( (m+n)&1 ) return findKthNumber(A,m,B,n,(m+n)/2);
-        else return ( findKthNumber(A,m,B,n,(m+n)/2) + findKthNumber( A,m,B,n,(m+n)/2-1) )*0.5;
+        if( (m+n)&1 ) return findKthNumber(A,m,B,n,(m+n)/2+1);
+        else return ( findKthNumber(A,m,B,n,(m+n)/2) + findKthNumber( A,m,B,n,(m+n)/2+1) )*0.5;
     }
 };
 int main()
