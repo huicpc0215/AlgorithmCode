@@ -5,15 +5,10 @@
 #        Email: huicpc0215@gmail.com
 #     HomePage: huicpc0215.uni.me
 #      Version: 0.0.1
-#   LastChange: 2014-10-16 15:00:06
+#   LastChange: 2014-10-16 15:20:27
 #      History:
 =============================================================================*/
 
-/*
- * solution:
- * read a and b
- * output a+b
- */
 #include<iostream>
 #include<cstdio>
 #include<cstring>
