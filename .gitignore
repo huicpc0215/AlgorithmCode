@@ -29,3 +29,6 @@
 
 # input file
 *.in
+
+# text
+*.txt
