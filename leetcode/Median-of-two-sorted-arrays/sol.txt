@@ -1,0 +1,15 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution for Median-of-two-sorted-arrays
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2014-10-16 19:52:30
+#      History:
+=============================================================================*/
+1) divide and conqure, the problem can be the same as the Kth number in sorted array A and B.
+2) divide two side, one is k/2 and anther is k-k/2, wants to know the Kth number .
+3) if left is smaller, results can't be in the left.( A + Apart )
+4) if right is smaller, results can't be in the right.( B + Bpart )
+5) if equal , the K-1th and Kth is the same value of A[Apart] or B[Bpart]
