@@ -1,0 +1,14 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution for two-sum
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2014-10-16 16:21:37
+#      History:
+=============================================================================*/
+
+1) add index to the array.
+2) sort by number
+3) binary search to target - P[i]
