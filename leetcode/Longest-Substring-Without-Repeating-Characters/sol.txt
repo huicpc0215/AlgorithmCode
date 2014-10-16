@@ -1,0 +1,16 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution for Longest Substring without repeating characters
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-16 20:34:13
+#      History:
+=============================================================================*/
+
+1) recode last s[i] appear ( pos[ s[i] ])
+2) recode last not repeat( last )
+3) update ans = max( ans , i - max( pos[s[i]], last-1) )
+   update last = max ( last , pos[s[i]]+1);
+4) update pos[s[i]]
