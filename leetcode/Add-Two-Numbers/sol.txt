@@ -1,0 +1,14 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution for Add Two Numbers
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-17 14:34:08
+#      History:
+=============================================================================*/
+
+1) digit by digit add
+2) recode updigit( 0 or 1)
+3) last check if there exist updigit.
