@@ -1,0 +1,16 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution for 1014
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2014-10-17 16:45:00
+#      History:
+=============================================================================*/
+
+1)build tree with insert dictionary 
+2) query the tree 
+** memset( m , what , sizeof m)
+** multi testcase
+
