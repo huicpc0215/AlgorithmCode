@@ -5,9 +5,24 @@
 #        Email: huicpc0215@gmail.com
 #     HomePage: https://github.com/huicpc0215
 #      Version: 0.0.1
-#   LastChange: 2014-10-18 18:47:20
+#   LastChange: 2014-10-18 19:51:31
 #      History:
 =============================================================================*/
 
 according to http://www.cnblogs.com/wuyiqi/archive/2012/06/25/2561063.html
-1)
+pre : p[i] max range(including it self)
+      st[i] = s[i/2] i&1
+              '$'    i==0
+              '#'    others
+      far = farest Palindromic Substring position
+      farid = farest id
+
+1)      p[i] = min ( p[ 2*farid-i ] ,far - i );
+2)      update p[i]: while( st[i-p[i]]] == st[i+p[i]] ) p[i]++;
+
+update far & farid ;
+        if( i+p[i]> far)
+        {
+            far = i+p[i];
+            farid = i;
+        }

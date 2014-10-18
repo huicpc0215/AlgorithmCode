@@ -1,0 +1,14 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution for Reverse Integer
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-18 20:08:44
+#      History:
+=============================================================================*/
+
+1) get ever digit of the number 
+2) add to another integer
+3) return the answer
