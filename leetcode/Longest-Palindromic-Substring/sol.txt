@@ -1,0 +1,13 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution for Longest Palindromic Substring
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-18 18:47:20
+#      History:
+=============================================================================*/
+
+according to http://www.cnblogs.com/wuyiqi/archive/2012/06/25/2561063.html
+1)
