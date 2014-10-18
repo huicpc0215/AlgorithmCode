@@ -1,0 +1,15 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for String to Integer.
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-18 21:13:35
+#      History:
+=============================================================================*/
+1) before first digit , space is not required.
+2) two or more operators return 0
+3) any digit before strange character is useful.
+    0123a324-> 123
+4) res > INT_MAX  ? return nag? -res:res;

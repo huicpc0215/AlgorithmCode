@@ -30,3 +30,5 @@
 # input file
 *.in
 
+# temp file
+*.cpp~
