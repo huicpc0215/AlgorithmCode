@@ -1,0 +1,15 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for hihocoder 1032 
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-19 19:18:29
+#      History:
+=============================================================================*/
+1) change the string to 2*n+1
+
+2) update p[i]=min( p[2*farid-i] , far - i);    when far > i 
+3) update p[i]++ if( st2[i-p[i]]==st2[i+p[i]] )
+4) update far & farid if ( i+p[i] > far ) 
