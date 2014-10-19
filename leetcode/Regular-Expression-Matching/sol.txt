@@ -1,0 +1,22 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Regular Expression Matching
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-19 20:11:44
+#      History:
+=============================================================================*/
+1) judge if the p+1 is '*'
+    if not, judge the p && s , is equal || p=='.' && s!=NULL
+        return match(s+1,p+1);
+    else return false;
+
+2) else p+1 is '*'
+    check if( match(s,p+2)) return true;
+    while( s==p || (p=='.' && s!=NULL)){
+        if(match(s,p+2)) return true;
+        s++;
+    }
+    return false;
