@@ -1,0 +1,17 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for hihocoder 1015
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-19 18:45:24
+#      History:
+=============================================================================*/
+1) get next array of pre array
+2) using pre array to ori array
+3) ATTENSION : next[0]=-1;
+
+
+先获得模式串的next数组,
+再用原串去匹配模式串
