@@ -1,0 +1,19 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for the leetcode Container With Most Water
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-19 21:17:35
+#      History:
+=============================================================================*/
+1) maxWater=max (r-l) * min( height[r],height[l]);
+
+2) maxWater must appear using update the min one of ( height[l],height[r])
+
+ATTENTION:  *************
+if( height[l] < height[r] ) l++;
+else r++;
+
+provement is not clear

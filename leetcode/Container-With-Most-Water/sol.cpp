@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: sol.cpp
+#         Desc: program for leetcode Container With Most Water
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-19 21:17:55
+#      History:
+=============================================================================*/
 #include<iostream>
 #include<vector>
 #include<cstdio>
