@@ -1,0 +1,17 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Integer to Roman
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-20 20:59:10
+#      History:
+=============================================================================*/
+1) check the next number is 9 or not ?
+2) if so set check = true and next number = 0
+3) set the number according to rules of Roman
+   (5->8 X XI XII XIII)
+   (4-> IX) 
+   (1-3-> I II III)
+4) if check then add nextdigit 1 and nowdigit 1 
