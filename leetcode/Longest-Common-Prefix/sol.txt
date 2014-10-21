@@ -1,0 +1,13 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for Longest Common Prefix
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-21 12:11:31
+#      History:
+=============================================================================*/
+1) check strings.size() if sz==0 return "";
+2) check every char in string[0]
+
