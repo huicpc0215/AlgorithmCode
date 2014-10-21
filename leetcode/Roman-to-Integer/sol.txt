@@ -1,0 +1,14 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for Leetcode Roman to Integer
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-21 11:04:00
+#      History:
+=============================================================================*/
+1) scan every character to see if next is bigger than now
+2) if so res += next - now ,i+=2
+3) else res+=now , i++
+4) return res;
