@@ -1,0 +1,19 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for hihocoder 1033
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-21 13:19:00
+#      History:
+=============================================================================*/
+1) calc every how many  that the sum of target=sum(PAIR.first) and how many(PAIR.second).
+2) (i=0;i<=dgt[i];i++) getnumber to the sum
+3) ATTENTION:
+    g(r) manybe less than g(l);
+    ans = (g(r)-g(l)+MOD )%MOD;
+4) when i==dgt[i] and now is limited, reach the limits next pos is limit.
+    else next dgt is not limited
+
+
