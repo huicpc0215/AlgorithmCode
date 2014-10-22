@@ -1,0 +1,13 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Letter Combinations of a Phone Number
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-22 23:02:08
+#      History:
+=============================================================================*/
+1) init all number to letter value
+2) dfs every cell 
+
