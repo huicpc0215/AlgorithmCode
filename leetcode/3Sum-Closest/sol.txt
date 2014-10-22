@@ -1,0 +1,13 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode 3Sum Closest
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-22 22:19:00
+#      History:
+=============================================================================*/
+1) same as ksum
+2) when in 2sum ,just update abs(target-num[l]-num[r])
+
