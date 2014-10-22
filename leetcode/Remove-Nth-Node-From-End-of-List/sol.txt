@@ -5,9 +5,12 @@
 #        Email: huicpc0215@gmail.com
 #     HomePage: https://github.com/huicpc0215
 #      Version: 0.0.1
-#   LastChange: 2014-10-22 23:20:37
+#   LastChange: 2014-10-22 23:25:04
 #      History:
 =============================================================================*/
 1) calc the length 
 2) scan to the pre of length-n 
 3) p->next = p->next-next;
+ATTENTION:
+    size=1  return NULL
+    detail first  return head->next

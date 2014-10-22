@@ -5,7 +5,7 @@
 #        Email: huicpc0215@gmail.com
 #     HomePage: https://github.com/huicpc0215
 #      Version: 0.0.1
-#   LastChange: 2014-10-22 23:20:41
+#   LastChange: 2014-10-22 23:25:09
 #      History:
 =============================================================================*/
 #include<iostream>
@@ -27,7 +27,9 @@ public:
             sz++;
             p=p->next;
         }
+        if(sz==1) return NULL;
         n=sz-n;
+        if(n==0) return head->next;
         p=head;
         for(int i=0;i<n-1;i++)
             p=p->next;
