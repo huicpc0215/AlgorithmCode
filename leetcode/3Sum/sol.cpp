@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: sol.cpp
+#         Desc: program for leetcode 3sum
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-22 21:59:44
+#      History:
+=============================================================================*/
 #include<iostream>
 #include<cstdio>
 #include<cstring>

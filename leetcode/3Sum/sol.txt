@@ -1,0 +1,24 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode 3sum
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-22 21:59:31
+#      History:
+=============================================================================*/
+First sort array
+1) for k > 2 recurive it to k-1
+2) k==2 use l->r
+    if( num[l]+num[r]>target)r--;
+    if( num[l]+num[r]<target)l++;
+    else{
+        save ans;
+    }
+proof:
+    for every cell that x>l when (num[l]+num[r]>target)  num[x]+num[r]>target
+        so the answer can't in right hand of l;
+
+    for every cell that x<r when (num[l]+num[r]<target)  num[x]+num[r]<target
+        so the answer can't in left hand of r;
