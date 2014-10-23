@@ -1,0 +1,12 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Valid Parentheses
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-23 20:23:09
+#      History:
+=============================================================================*/
+1) in stack overview 
+2) check empty and last digit when ] ) } 
