@@ -1,0 +1,14 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Swao Nodes in Pairs 
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-28 23:46:13
+#      History:
+=============================================================================*/
+1) sv now , nxt , nxt2
+2) now-> next = nxt2
+3) nxt->next=nxt2->next
+4) nxt2->next = nxt
