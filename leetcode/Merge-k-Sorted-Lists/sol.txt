@@ -1,1 +1,15 @@
-1)
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Merge K sorted lists
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-28 23:12:21
+#      History:
+=============================================================================*/
+
+1) first check all array first 
+2) put into the queue
+3) check minust in the queue to push to the answer and push the next to the queue
+4) until the queue is empty
