@@ -1,0 +1,11 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Remove Element
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-29 20:54:31
+#      History:
+=============================================================================*/
+1) check every number and save the different number
