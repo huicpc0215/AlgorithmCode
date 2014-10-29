@@ -1,0 +1,11 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Remove Duplicates from Sorted Array
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-10-29 20:46:26
+#      History:
+=============================================================================*/
+1) check last number and save the different
