@@ -1,0 +1,14 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Next Permutation
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-11-10 09:47:13
+#      History:
+=============================================================================*/
+1) find the first num[r]>num[r-1]
+2) find r==0?
+3) if r>0 swap( num[r-1] , num[l] ) while num[l] is the first bigger number than num[r-1]
+4) sort(num[r],num.end())
