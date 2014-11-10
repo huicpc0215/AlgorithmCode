@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: sol.cpp
+#         Desc: program for leetcode Search in Rotated Array
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-11-10 11:04:23
+#      History:
+=============================================================================*/
 #include<iostream>
 #include<cstdio>
 #include<cstring>

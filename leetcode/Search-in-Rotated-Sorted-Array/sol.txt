@@ -1,0 +1,12 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Search in Rotated Sorted Array
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-11-10 11:03:34
+#      History:
+=============================================================================*/
+1) check if the array rotated
+2) using lower_bound to check the position of the target
