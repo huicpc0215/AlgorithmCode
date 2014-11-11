@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: sol.cpp
+#         Desc: program for leetcode Search for a Range
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-11-11 21:23:22
+#      History:
+=============================================================================*/
 #include<vector>
 #include<cstdio>
 #include<iostream>

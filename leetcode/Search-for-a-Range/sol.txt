@@ -1,0 +1,14 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Search for a Range
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-11-11 21:33:30
+#      History:
+=============================================================================*/
+1) get the lower_bound and uppper_bound
+2) check the lower_bound is equal to the upper_bound
+3) if so , return -1 -1
+4) else return lower_bound , upper_bound-1
