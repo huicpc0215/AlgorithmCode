@@ -1,0 +1,12 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode valid sudoku
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-11-13 21:22:33
+#      History:
+=============================================================================*/
+1) check colume and row for each
+2) check each block for the sudoku
