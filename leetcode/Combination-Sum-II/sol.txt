@@ -1,0 +1,15 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetocde Combination Sum II
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2014-12-04 19:55:03
+#      History:
+=============================================================================*/
+1. sort candicates
+2. dfs
+3. check if the tmpans exist in the ans
+    if ( true ) continue;
+    else ans.push_back(tmpans);
