@@ -1,0 +1,15 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc:  solution detail for leetcode Combination Sum
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2014-12-04 17:22:51
+#      History:
+=============================================================================*/
+
+1. sort the array
+2. use dfs
+    only return true while tmpsum == target
+    if( tmpsum > target || position == candicates.size() ) return false
