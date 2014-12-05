@@ -1,0 +1,11 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Multiply Strings
+#       Author: WenShi(huicpc0215)
+#        Email: huicpc0215@gmail.com
+#     HomePage: https://github.com/huicpc0215
+#      Version: 0.0.1
+#   LastChange: 2014-12-05 23:19:46
+#      History:
+=============================================================================*/
+1. use BigInteger
