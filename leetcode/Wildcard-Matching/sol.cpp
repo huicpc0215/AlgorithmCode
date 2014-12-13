@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: sol.cpp
+#         Desc: program detail for leetcode Wildcard-Matching
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2014-12-13 12:07:23
+#      History:
+=============================================================================*/
 #include<iostream>
 #include<cstdio>
 #include<cstring>

@@ -1,0 +1,11 @@
+NOTE:
+    If every character between two consistent '*' matches , the older '*' can be seen as ""(no character)!!
+    The sought is very brilliant.
+
+1) save star position and last s position.
+2) if ? or *p==*s, (p++,s++) go on 
+3) else if *p=='*' take the star position and s position
+4) else if have star , just traceback!
+5) else return false;
+
+if *s=='\0' return *p=='\0'
