@@ -1,6 +1,7 @@
 #include<iostream>
 #include<cstdio>
 #include<cstring>
+#include<cmath>
 using namespace std;
 class Solution{
     public:
@@ -28,4 +29,5 @@ class Solution{
 int main(){
     Solution s;
     printf("%s\n",s.isMatch("abc","*")?"YES":"NO");
+    return 0;
 }
