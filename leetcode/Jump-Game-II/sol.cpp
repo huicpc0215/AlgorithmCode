@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: sol.cpp
+#         Desc: program detail for Jump-Game
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2015-01-01 12:25:58
+#      History:
+=============================================================================*/
 #include<iostream>
 #include<cstdio>
 #include<cmath>

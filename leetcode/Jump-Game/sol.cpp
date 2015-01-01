@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: sol.cpp
+#         Desc: program detail for leetcode Jump-Game
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2015-01-01 12:24:50
+#      History:
+=============================================================================*/
 #include<iostream>
 #include<cstdio>
 #include<cmath>
