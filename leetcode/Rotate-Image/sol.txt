@@ -1,0 +1,13 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Rotate-Image
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2015-01-01 13:05:48
+#      History:
+=============================================================================*/
+1) every step change four cells.
+2) calculate the position for the cell
+3) just loop!
