@@ -1,0 +1,12 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Permutations
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2015-01-01 12:33:30
+#      History:
+=============================================================================*/
+1) using algorithm next_permutation
+NOTE : need sort before permutation!
