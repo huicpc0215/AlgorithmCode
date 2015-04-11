@@ -1,29 +1,24 @@
 #include<iostream>
 #include<cstdio>
-#include<cmath>
 using namespace std;
 int n;
-int box[1010];
 int main(){
-    //freopen("./B-small-attempt4.in","r",stdin);
-    //freopen("./B-small-attempt4.out","w",stdout);
+    freopen("A-large.in","r",stdin);
+    freopen("A-large.out","w",stdout);
     int T,casenum=1;
+    char str[1010];
     scanf("%d",&T);
     while(T--){
-        int ans,maxpi=0;
         scanf("%d",&n);
-        for(int i=0;i<n;i++){
-            scanf("%d",&box[i]);
-            if( box[i] > maxpi )
-                maxpi = box[i];
-        }
-        ans = maxpi;
-        for(int i=3;i<=maxpi;i++){
-            int tmpans = i;
-            for(int j=0;j<n;j++){
-                tmpans += (box[j]-1)/i;
+        scanf("%s",str);
+        int ans=0;
+        int now=0;
+        for(int i=0;i<=n;i++){
+            if( str[i]!='0' && now < i ){
+                ans += i - now;
+                now += i - now;
             }
-            ans = min ( ans , tmpans );
+            now += str[i]-'0';
         }
         printf("Case #%d: %d\n",casenum++,ans);
     }
