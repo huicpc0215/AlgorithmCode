@@ -5,8 +5,8 @@ using namespace std;
 int n;
 int box[1010];
 int main(){
-    //freopen("./B-small-attempt4.in","r",stdin);
-    //freopen("./B-small-attempt4.out","w",stdout);
+    freopen("./B-large.in","r",stdin);
+    freopen("./B-large.out","w",stdout);
     int T,casenum=1;
     scanf("%d",&T);
     while(T--){
@@ -18,7 +18,7 @@ int main(){
                 maxpi = box[i];
         }
         ans = maxpi;
-        for(int i=3;i<=maxpi;i++){
+        for(int i=1;i<=maxpi;i++){
             int tmpans = i;
             for(int j=0;j<n;j++){
                 tmpans += (box[j]-1)/i;
