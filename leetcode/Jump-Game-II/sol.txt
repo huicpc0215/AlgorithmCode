@@ -1,0 +1,15 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Jump-Game-II
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2015-01-01 12:26:12
+#      History:
+=============================================================================*/
+1) like Jump-Game
+2) recode the number step to the cell
+3) push the cell if :
+    dis[ from ] + 1 < dis[ to ]
+4) return dis[n-1]

@@ -1,14 +1,13 @@
 /*=============================================================================
 #     FileName: sol.cpp
-#         Desc: program detail for leetcode Wildcard Matching
-#       Author: WenShi(huicpc0215)
+#         Desc: program detail for leetcode Wildcard-Matching
+#       Author: huicpc0215
 #        Email: huicpc0215@gmail.com
-#     HomePage: huicpc0215.uni.me
+#     HomePage: http://huicpc0215.uni.me
 #      Version: 0.0.1
-#   LastChange: 2014-12-07 21:37:44
+#   LastChange: 2014-12-13 12:07:23
 #      History:
 =============================================================================*/
-
 #include<iostream>
 #include<cstdio>
 #include<cstring>
@@ -17,25 +16,28 @@ using namespace std;
 class Solution{
     public:
     bool isMatch(const char *s,const char *p){
-        if( *p=='\0' ) return *s=='\0';
-
-        if( *p !='*' ){
-            if( *p==*s || (*p=='?' && *s!='\0' ) )
-                return isMatch(s+1,p+1);
+        const char *star=NULL;
+        const char *sPos=s;
+        while( *s ){
+            if( *p=='?'||*p==*s){
+                p++;s++;
+            }
+            else if( *p=='*' ){
+                star=p++;
+                sPos=s;
+            }
+            else if( star ){
+                p=star+1;
+                s=++sPos;
+            }
             else return false;
         }
-        else {
-            while(*(p+1)=='*')p++;
-            while( true ){
-                if(isMatch(s,p+1)) return true;
-                if(*s=='\0') return false;
-                else s++;
-            }
-        }
+        while(*p=='*')p++;
+        return *p=='\0';
     }
 };
 int main(){
     Solution s;
-    printf("check = %s\n",s.isMatch("aaabbbaabaaaaababaabaaabbabbbbbbbbaabababbabbbaaaaba","a*******b")?"YES":"NO");
+    printf("%s\n",s.isMatch("abc","*")?"YES":"NO");
     return 0;
 }

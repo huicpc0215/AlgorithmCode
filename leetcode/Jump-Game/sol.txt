@@ -1,0 +1,16 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Jump-Game
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2015-01-01 12:25:09
+#      History:
+=============================================================================*/
+1)using BFS ( queue implementation )
+2)check from the max( minpos+1 , nowpos+1 ) 
+    minpos = have been checked position
+    nowpos = now position
+    to the max ( n-1 , nowpos + distence )
+3)if no visit just push into queue

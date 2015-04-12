@@ -1,10 +1,11 @@
 /*=============================================================================
-#     FileName: sol.cpp
-#         Desc: program detail for leetcode Multiply Strings
-#       Author: WenShi(huicpc0215)
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Permutations-II
+#       Author: huicpc0215
 #        Email: huicpc0215@gmail.com
-#     HomePage: https://github.com/huicpc0215
+#     HomePage: http://huicpc0215.uni.me
 #      Version: 0.0.1
-#   LastChange: 2014-12-05 23:10:04
+#   LastChange: 2015-01-01 12:39:29
 #      History:
 =============================================================================*/
+same as Permutation!

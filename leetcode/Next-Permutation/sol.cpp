@@ -5,7 +5,7 @@
 #        Email: huicpc0215@gmail.com
 #     HomePage: https://github.com/huicpc0215
 #      Version: 0.0.1
-#   LastChange: 2014-11-10 09:43:47
+#   LastChange: 2015-01-01 12:22:16
 #      History:
 =============================================================================*/
 #include<iostream>
@@ -19,12 +19,10 @@ class Solution{
     void nextPermutation(vector<int> &num){
         int r=num.size()-1;
         while(r&&num[r]<=num[r-1])r--;
-        sort(num.begin()+r,num.end());
+        reverse(num.begin()+r,num.end());
         if(r){
             int l=upper_bound(num.begin()+r,num.end(),num[r-1])-num.begin();
-            printf("l=%d num[l]=%d\n",l,num[l]);
             swap(num[l],num[r-1]);
-            sort(num.begin()+r,num.end());
         }
     }
 };

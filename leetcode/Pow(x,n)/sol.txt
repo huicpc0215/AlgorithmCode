@@ -1,0 +1,12 @@
+/*=============================================================================
+#     FileName: sol.txt
+#         Desc: solution detail for leetcode Pow(x,n)
+#       Author: huicpc0215
+#        Email: huicpc0215@gmail.com
+#     HomePage: http://huicpc0215.uni.me
+#      Version: 0.0.1
+#   LastChange: 2015-01-01 15:30:28
+#      History:
+=============================================================================*/
+1) using fast multiplycation
+2) just O(logN) time to proceed
