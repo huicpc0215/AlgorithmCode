@@ -26,15 +26,16 @@ void init(){
 char str[10010];
 char allstr[80010];
 int main(){
-    freopen("./C-large.in","r",stdin);
-    freopen("./C-large.out","w",stdout);
+    freopen("./C-large-practice.in","r",stdin);
+    freopen("./C-large-practice.out","w",stdout);
     init();
     int T,casenum=1;
     scanf("%d",&T);
     while(T--){
         printf("Case #%d: ",casenum++);
-        int x,l;
-        scanf("%d%d",&l,&x);
+        long long x;
+        int l ;
+        scanf("%d%lld",&l,&x);
         scanf("%s",str);
         if( x > 8 ){
             x = x%4+4;
@@ -42,7 +43,7 @@ int main(){
         for(int i=0;i<x;i++)
             for(int j=0;j<l;j++)
                 allstr[i*l+j]=str[j];
-        bool findi=false,findk=false;
+        int findi=-1,findk=-1;
         char nowi=str[0],nowk=str[l-1];
         int isPositive=true;
         for(int i=1;i<x*l;i++){
@@ -54,18 +55,19 @@ int main(){
         }
         if(!isPositive && nowi =='1' ){
             nowi = str[0];
-            if( nowi =='i' || nowi ==(-'i') ) findi = true;
-            if( nowk =='k' || nowk ==(-'k') ) findk = true;
-            for(int i=1;i<x*l-i-1;i++){
+            if( nowi =='i' || nowi ==(-'i') ) findi = 0;
+            if( nowk =='k' || nowk ==(-'k') ) findk = x*l-1;
+            for(int i=1;findi==-1 && i<x*l-1;i++){
                 nowi = mp[ nowi ][ allstr[i] ];
-                nowk = mp[ allstr[x*l-1-i] ][ nowk ];
-                if( nowi =='i' || nowi ==(-'i') ) findi = true;
-                if( nowk =='k' || nowk ==(-'k') ) findk = true;
+                if( nowi =='i' || nowi ==(-'i') ) findi = i;
                 nowi = nowi > 0? nowi : -nowi;
-                nowk = nowk > 0? nowk : -nowk;
-                if( findi && findk ) break;
             }
-            if( findi && findk ) printf("YES\n");
+            for(int i=1;findk==-1 && i<x*l-1;i++){
+                nowk = mp[ allstr[x*l-1-i] ][ nowk ];
+                if( nowk =='k' || nowk ==(-'k') ) findk = x*l-1-i;
+                nowk = nowk > 0? nowk : -nowk;
+            }
+            if( findi!=-1 && findk!=-1 && findi < findk ) printf("YES\n");
             else printf("NO\n");
         }
         else printf("NO\n");
