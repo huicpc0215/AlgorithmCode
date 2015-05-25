@@ -1,0 +1,3 @@
+check l1,l2 exist
+
+push min(l1,l2) to answer list
