@@ -16,7 +16,10 @@ void dfs(int x,int f){
     for(int i=0;i<sz;i++){
         if( e[x][i]==f ) continue;
         dfs(e[x][i],x);
-        for(int j=m;j>=2;j--)
+        // this can't be 0,1 package problem
+        // is a group package problem
+        // for each group that can at most one can be choose!
+        for(int j=m;j>1;j--)
             for(int k=1;k<j;k++)
                 dp[x][j] = max( dp[x][j], dp[x][ j-k ] + dp[ e[x][i] ][ k ] );
     }
