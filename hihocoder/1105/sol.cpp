@@ -1,9 +1,10 @@
 #include <cstdio>
 #include <queue>
 #include <cstring>
+#include <vector>
 using namespace std;
 
-priority_queue<int> p;
+priority_queue<int,vector<int>,less<int> > p;
 int n,t;
 char op[10];
 int main(){
