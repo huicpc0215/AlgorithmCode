@@ -1,43 +1,40 @@
 #include<iostream>
 #include<cstdio>
 #include<cstring>
+#include<set>
 using namespace std;
 int t,n,tmp;
 int sg[100];
-int dfs(int x);
-void dfs2(int pos,int mx,int lastval,int left,bool *vis,int nowval);
+set<int> s;
 
-void dfs2(int pos,int mx,int lastval,int left,bool *vis,int nowval){
-    if( pos == mx ){
-        if(left == 0) vis[ nowval ] = true;
-        return;
+void dfs( int pos, int lastval, int mx, int left, int val ){
+    if( pos == mx ) {
+        if( left == 0 )s.insert( val );
+        else return ;
     }
     for(int i=lastval+1;i<=left;i++)
-        if( left-i >=0 )dfs2(pos+1,mx,i,left-i,vis,nowval^dfs(i));
-        else break;
+        dfs( pos + 1 , i , mx , left - i , val^sg[i] );
 }
-int dfs(int x){
-    if(sg[x]!=-1) return sg[x];
-    if( x<=2 ) return sg[x]=0;
-    bool vis[50];
-    memset(vis,false,sizeof vis);
-    for(int i=2;i<10;i++){
-        dfs2(0,i,0,x,vis,0);
-    }
-    for(int i=0;i<50;i++)
-        if(!vis[i])
-            return sg[x]=i;
+int grundy(int x){
+    s.clear();
+    for(int i=2;i*(i+1)/2 <= x;i++)
+        dfs( 0 , 0 , i , x , 0 );
+    int g=0;
+    while(s.count(g)!=0) g++;
+    return sg[x]=g;
 }
 
 int main(){
     for(int i=0;i<100;i++) sg[i]=-1;
+    sg[0]=sg[1]=sg[2]=0;
+    for(int i=3;i<=50;i++) grundy(i);
     scanf("%d",&t);
     while(t--){
         scanf("%d",&n);
         int val=0;
         for(int i=0;i<n;i++){
             scanf("%d",&tmp);
-            val^=dfs(tmp);
+            val^=sg[tmp];
         }
         printf("%s\n",val?"ALICE":"BOB");
     }
