@@ -25,6 +25,7 @@ int grundy(int x){
 }
 
 int main(){
+    //freopen("1.txt","r",stdin);
     for(int i=0;i<100;i++) sg[i]=-1;
     sg[0]=sg[1]=sg[2]=0;
     for(int i=3;i<=50;i++) grundy(i);
